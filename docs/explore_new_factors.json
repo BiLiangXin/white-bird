@@ -1,0 +1,90 @@
+{
+ "moon": {
+  "night_segments": 3475,
+  "moon_up_share": 0.4529496402877698,
+  "move1_by_band": {
+   "暗夜（<0.1）": {
+    "rate": 0.15123456790123457,
+    "n": 1944
+   },
+   "中等": {
+    "rate": 0.14516129032258066,
+    "n": 434
+   },
+   "亮夜（>0.6）": {
+    "rate": 0.18596171376481313,
+    "n": 1097
+   }
+  },
+  "move1": {
+   "beta_full_vs_dark": 0.3229570886825042,
+   "ci": [
+    0.031445888083449225,
+    0.6144682892815592
+   ],
+   "rate_dark": 0.15123456790123457,
+   "rate_bright": 0.18596171376481313,
+   "n_dark": 1944,
+   "n_bright": 1097
+  },
+  "long10": {
+   "beta_full_vs_dark": -0.23392530037545697,
+   "ci": [
+    -0.7369904527139773,
+    0.26913985196306334
+   ],
+   "rate_dark": 0.07613168724279835,
+   "rate_bright": 0.07201458523245215,
+   "n_dark": 1944,
+   "n_bright": 1097
+  },
+  "bird_equal_move1_bright_minus_dark": {
+   "estimate": 0.02298343402741285,
+   "ci": [
+    -0.004554458300092251,
+    0.052813573399589156
+   ],
+   "birds": 15
+  }
+ },
+ "leg_length": {
+  "离开东北停歇区北上": {
+   "events": 16,
+   "birds": 10,
+   "along_diff": 1.3451612838897469,
+   "ci": [
+    0.4261546562745403,
+    2.192120885067796
+   ],
+   "night_share": 0.25
+  },
+  "其他持续事件": {
+   "events": 202,
+   "birds": 14,
+   "along_diff": 0.6646130775450326,
+   "ci": [
+    0.17326188332702902,
+    1.181738511568297
+   ],
+   "night_share": 0.2871287128712871
+  }
+ },
+ "flight_fixes": {
+  "speed_available_share": 0.7735830360681728,
+  "birds_with_speed": 8,
+  "flight_fixes": 609,
+  "flight_birds": 8,
+  "flight_fixes_by_daynight": {
+   "Day": 507,
+   "Night": 102
+  },
+  "ellipsoid_height_median_flight": {
+   "Day": 302.0,
+   "Night": 315.5
+  },
+  "flight_ground_speed_median_mps": {
+   "Day": 15.947764,
+   "Night": 18.00554
+  }
+ }
+}
