@@ -1,0 +1,69 @@
+{
+  "records": 9779,
+  "birds": 14,
+  "bird_years": 25,
+  "long30_events": 540,
+  "long50_events": 410,
+  "short_wind_start": {
+    "along_min": -11.115103045038556,
+    "along_max": 12.337188556731887
+  },
+  "primary_main_logit": {
+    "night": {
+      "estimate": -0.555658903568293,
+      "lo": -0.9236064219247901,
+      "hi": -0.1877113852117958
+    },
+    "along_start_within": {
+      "estimate": 0.0373108991137582,
+      "lo": 0.014551545732888239,
+      "hi": 0.06007025249462816
+    },
+    "cross_start_within": {
+      "estimate": -0.13672097293283783,
+      "lo": -0.24472843112394355,
+      "hi": -0.028713514741732116
+    },
+    "night:along_start_within": {
+      "estimate": 0.06580327106506066,
+      "lo": -0.007436584149121503,
+      "hi": 0.1390431262792428
+    }
+  },
+  "primary_distance": {
+    "night": {
+      "estimate": 0.010302543393057945,
+      "lo": -0.15410717372523672,
+      "hi": 0.1747122605113526
+    },
+    "along_start_within": {
+      "estimate": 0.04950783717975122,
+      "lo": 0.020649273079174833,
+      "hi": 0.07836640128032761
+    },
+    "cross_start_within": {
+      "estimate": -0.00807167890987873,
+      "lo": -0.040646843887343076,
+      "hi": 0.024503486067585612
+    },
+    "night:along_start_within": {
+      "estimate": 0.029246702900986958,
+      "lo": -0.046939458118623316,
+      "hi": 0.10543286392059723
+    }
+  },
+  "H1_30km_events_with_local_heading": 341,
+  "H1_versus_route_tailwind_sign_agree": 0.8387096774193549,
+  "CV_mean_by_bird": {
+    "Baseline": {
+      "Brier": 0.05290213,
+      "LogLoss": 0.21332768
+    },
+    "Wind": {
+      "Brier": 0.05286058,
+      "LogLoss": 0.2122937
+    }
+  },
+  "AIC_event_base": 4046.6337332726616,
+  "AIC_event_wind": 4007.3755990503428
+}

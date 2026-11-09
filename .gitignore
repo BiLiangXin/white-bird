@@ -1,0 +1,25 @@
+# 原始与中间数据（含逐点坐标，不入库）
+data/*
+!data/README.md
+*.zip
+*.parquet
+*.pkl
+
+# 含坐标的大表，防止误提交
+**/Phase5a_Frozen_Movement_Data.csv
+**/Phase5c_GEE_Full_Matched_Movement_Data.csv
+**/Phase5d2A_Relative_Wind_Data.csv
+**/Phase5d2C_Event_Onset_Segments.csv
+**/Phase5d2C_Risk_Set_Control_Segments.csv
+**/Phase5d2C_Spring_Segment_Continuity_Audit.csv
+**/Phase5d2B_Long_Displacement_Sequences.csv
+**/Phase5d2_Response_Variable_Audit.csv
+
+# Office临时文件
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/

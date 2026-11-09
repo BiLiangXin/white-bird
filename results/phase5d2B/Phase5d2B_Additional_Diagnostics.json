@@ -1,0 +1,70 @@
+{
+  "event_model_resid_lag1_pearson": 0.5823163593016688,
+  "N_contiguous_event_pairs": 7653,
+  "conditional_model_resid_lag1_pearson": 0.21846151252785595,
+  "N_contiguous_conditional_pairs": 279,
+  "conditional_resid_skew": -0.46807234905150547,
+  "conditional_resid_excess_kurtosis": -0.34443718817566804,
+  "duration_sensitivity": {
+    "event": {
+      "along_start_within": {
+        "beta": 0.037324125412738586,
+        "CI95_cluster": [
+          0.014623962002058625,
+          0.06002428882341855
+        ]
+      },
+      "cross_start_within": {
+        "beta": -0.13669928705871917,
+        "CI95_cluster": [
+          -0.24469347134190705,
+          -0.028705102775531274
+        ]
+      },
+      "night:along_start_within": {
+        "beta": 0.06580304736820619,
+        "CI95_cluster": [
+          -0.007443952266072543,
+          0.1390500470024849
+        ]
+      },
+      "Duration_c": {
+        "beta": 0.09704830291331966,
+        "CI95_cluster": [
+          -1.4828506401965473,
+          1.6769472460231865
+        ]
+      }
+    },
+    "distance": {
+      "along_start_within": {
+        "beta": 0.04956814188748147,
+        "CI95_cluster": [
+          0.02063646350752983,
+          0.07849982026743312
+        ]
+      },
+      "cross_start_within": {
+        "beta": -0.007883179722687053,
+        "CI95_cluster": [
+          -0.04017795138911407,
+          0.024411591943739964
+        ]
+      },
+      "night:along_start_within": {
+        "beta": 0.02936735486673113,
+        "CI95_cluster": [
+          -0.04686359939348361,
+          0.10559830912694587
+        ]
+      },
+      "Duration_c": {
+        "beta": 0.5832421275643869,
+        "CI95_cluster": [
+          -0.6098158782256924,
+          1.7763001333544661
+        ]
+      }
+    }
+  }
+}

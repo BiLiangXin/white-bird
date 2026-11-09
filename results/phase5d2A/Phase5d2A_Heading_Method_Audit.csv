@@ -1,0 +1,74 @@
+﻿Audit_Type,Method,Threshold_km,Stage,Day_Night,Distance_Subset,N_total,N_valid,Coverage_pct,Birds_total,Birds_valid,Definition,Metric,Value,Unit
+overall_threshold_sensitivity,H1_previous_segment,0.5,All,All,All_segments,17784,4073,22.9026090868196,21,20,Previous movement/chord displacement must meet threshold; current segment excluded.,,,
+overall_threshold_sensitivity,H1_previous_segment,1,All,All,All_segments,17784,2836,15.9469185784975,21,20,Previous movement/chord displacement must meet threshold; current segment excluded.,,,
+overall_threshold_sensitivity,H1_previous_segment,3,All,All,All_segments,17784,1712,9.62663067926226,21,18,Previous movement/chord displacement must meet threshold; current segment excluded.,,,
+overall_threshold_sensitivity,H1_previous_segment,5,All,All,All_segments,17784,1316,7.39991003148898,21,16,Previous movement/chord displacement must meet threshold; current segment excluded.,,,
+overall_threshold_sensitivity,H2_two_step_chord,0.5,All,All,All_segments,17784,4174,23.4705353126406,21,19,Previous movement/chord displacement must meet threshold; current segment excluded.,,,
+overall_threshold_sensitivity,H2_two_step_chord,1,All,All,All_segments,17784,3063,17.22334682861,21,19,Previous movement/chord displacement must meet threshold; current segment excluded.,,,
+overall_threshold_sensitivity,H2_two_step_chord,3,All,All,All_segments,17784,1899,10.6781376518219,21,18,Previous movement/chord displacement must meet threshold; current segment excluded.,,,
+overall_threshold_sensitivity,H2_two_step_chord,5,All,All,All_segments,17784,1481,8.32771030139451,21,16,Previous movement/chord displacement must meet threshold; current segment excluded.,,,
+stage_daynight_coverage,H1_previous_segment_1km,1,Spring,Day,All_segments,6617,1869,28.2454284418921,15,15,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,H2_two_step_chord_1km,1,Spring,Day,All_segments,6617,2020,30.5274293486474,15,15,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,H3_bilateral_sensitivity,1,Spring,Day,All_segments,6617,256,3.86882272933353,15,15,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,Spring_route_axis_LOO,300,Spring,Day,All_segments,6617,6417,96.9774822427082,15,14,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,H1_previous_segment_1km,1,Spring,Night,All_segments,3475,343,9.8705035971223,15,15,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,H2_two_step_chord_1km,1,Spring,Night,All_segments,3475,302,8.69064748201439,15,15,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,H3_bilateral_sensitivity,1,Spring,Night,All_segments,3475,40,1.15107913669065,15,8,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,Spring_route_axis_LOO,300,Spring,Night,All_segments,3475,3362,96.7482014388489,15,14,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,H1_previous_segment_1km,1,Winter,Day,All_segments,3320,375,11.2951807228916,20,11,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,H2_two_step_chord_1km,1,Winter,Day,All_segments,3320,407,12.2590361445783,20,14,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,H3_bilateral_sensitivity,1,Winter,Day,All_segments,3320,21,0.632530120481928,20,7,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,H1_previous_segment_1km,1,Winter,Night,All_segments,4372,249,5.69533394327539,20,17,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,H2_two_step_chord_1km,1,Winter,Night,All_segments,4372,334,7.63952424519671,20,16,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+stage_daynight_coverage,H3_bilateral_sensitivity,1,Winter,Night,All_segments,4372,6,0.137236962488564,20,4,H3 additionally requires previous/next headings within 60 degrees; route axis requires LOO net >=300 km and bearing deviation <=30 degrees.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Spring,Day,Current_Distance_ge_10km,920,456,49.5652173913044,15,15,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Spring,Day,Current_Distance_ge_10km,920,394,42.8260869565217,15,15,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,Spring_route_axis_LOO,,Spring,Day,Current_Distance_ge_10km,920,891,96.8478260869565,15,14,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Spring,Night,Current_Distance_ge_10km,254,130,51.1811023622047,15,14,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Spring,Night,Current_Distance_ge_10km,254,94,37.007874015748,15,12,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,Spring_route_axis_LOO,,Spring,Night,Current_Distance_ge_10km,254,237,93.3070866141732,15,14,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Winter,Day,Current_Distance_ge_10km,52,13,25,9,6,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Winter,Day,Current_Distance_ge_10km,52,10,19.2307692307692,9,5,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Winter,Night,Current_Distance_ge_10km,21,8,38.0952380952381,7,4,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Winter,Night,Current_Distance_ge_10km,21,5,23.8095238095238,7,3,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Spring,Day,Current_Distance_ge_30km,413,273,66.1016949152542,15,15,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Spring,Day,Current_Distance_ge_30km,413,220,53.2687651331719,15,15,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,Spring_route_axis_LOO,,Spring,Day,Current_Distance_ge_30km,413,400,96.8523002421308,15,14,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Spring,Night,Current_Distance_ge_30km,145,78,53.7931034482759,14,13,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Spring,Night,Current_Distance_ge_30km,145,46,31.7241379310345,14,11,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,Spring_route_axis_LOO,,Spring,Night,Current_Distance_ge_30km,145,140,96.551724137931,14,13,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Winter,Day,Current_Distance_ge_30km,15,4,26.6666666666667,3,3,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Winter,Day,Current_Distance_ge_30km,15,3,20,3,3,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Winter,Night,Current_Distance_ge_30km,4,1,25,2,1,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Winter,Night,Current_Distance_ge_30km,4,1,25,2,1,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Spring,Day,Current_Distance_ge_50km,312,226,72.4358974358974,15,15,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Spring,Day,Current_Distance_ge_50km,312,181,58.0128205128205,15,15,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,Spring_route_axis_LOO,,Spring,Day,Current_Distance_ge_50km,312,307,98.3974358974359,15,14,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Spring,Night,Current_Distance_ge_50km,106,57,53.7735849056604,11,11,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Spring,Night,Current_Distance_ge_50km,106,32,30.188679245283,11,9,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,Spring_route_axis_LOO,,Spring,Night,Current_Distance_ge_50km,106,103,97.1698113207547,11,10,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Winter,Day,Current_Distance_ge_50km,9,3,33.3333333333333,2,2,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Winter,Day,Current_Distance_ge_50km,9,2,22.2222222222222,2,2,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H1_previous_segment_1km,,Winter,Night,Current_Distance_ge_50km,3,1,33.3333333333333,2,1,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+current_displacement_subset_coverage,H2_two_step_chord_1km,,Winter,Night,Current_Distance_ge_50km,3,1,33.3333333333333,2,1,Uses frozen Phase5a Distance_km threshold; not a confirmed flight label.,,,
+direction_agreement,H1_vs_H2,,All,All,All_segments,,,,,,,H1_H2_both_valid,1771,segments
+direction_agreement,H1_vs_H2,,All,All,All_segments,,,,,,,H1_H2_median_abs_angle_difference,3.11491656129752,degrees
+direction_agreement,H1_vs_H2,,All,All,All_segments,,,,,,,H1_H2_pct_within_30deg,84.5285149632976,percent
+direction_agreement,H1_vs_H2,,All,All,All_segments,,,,,,,H1_H2_pct_within_60deg,91.1349520045172,percent
+direction_agreement,H1_vs_H2,,All,All,All_segments,,,,,,,H1_H2_pct_over_90deg,6.09824957651045,percent
+direction_agreement,H1_vs_current_heading,,All,All,Current_Distance_ge_30km,,,,,,,N,356,segments
+direction_agreement,H1_vs_current_heading,,All,All,Current_Distance_ge_30km,,,,,,,median_abs_angle_difference,17.3656921555824,degrees
+direction_agreement,H1_vs_current_heading,,All,All,Current_Distance_ge_30km,,,,,,,pct_within_30deg,67.4157303370787,percent
+direction_agreement,H1_vs_current_heading,,All,All,Current_Distance_ge_30km,,,,,,,pct_within_60deg,80.8988764044944,percent
+direction_agreement,H2_vs_current_heading,,All,All,Current_Distance_ge_30km,,,,,,,N,270,segments
+direction_agreement,H2_vs_current_heading,,All,All,Current_Distance_ge_30km,,,,,,,median_abs_angle_difference,19.6399053750551,degrees
+direction_agreement,H2_vs_current_heading,,All,All,Current_Distance_ge_30km,,,,,,,pct_within_30deg,63.3333333333333,percent
+direction_agreement,H2_vs_current_heading,,All,All,Current_Distance_ge_30km,,,,,,,pct_within_60deg,80,percent
+direction_agreement,Spring_route_axis_vs_current_heading,,Spring_only,All,Current_Distance_ge_30km,,,,,,,N,540,segments
+direction_agreement,Spring_route_axis_vs_current_heading,,Spring_only,All,Current_Distance_ge_30km,,,,,,,median_abs_angle_difference,18.8088239826913,degrees
+direction_agreement,Spring_route_axis_vs_current_heading,,Spring_only,All,Current_Distance_ge_30km,,,,,,,pct_within_30deg,63.8888888888889,percent
+direction_agreement,Spring_route_axis_vs_current_heading,,Spring_only,All,Current_Distance_ge_30km,,,,,,,pct_within_60deg,82.5925925925926,percent
+direction_agreement,H1_vs_spring_route_axis,,Spring_only,All,Current_Distance_ge_30km,,,,,,,N_common_H1_route,341,segments
+direction_agreement,H1_vs_spring_route_axis,,Spring_only,All,Current_Distance_ge_30km,,,,,,,median_H1_route_heading_difference,15.3272261032971,degrees
+direction_agreement,H1_vs_spring_route_axis,,Spring_only,All,Current_Distance_ge_30km,,,,,,,pct_H1_route_within_30deg,68.3284457478006,percent
+direction_agreement,H1_vs_spring_route_axis,,Spring_only,All,Current_Distance_ge_30km,,,,,,,pct_H1_route_wind_sign_agreement,80.9384164222874,percent

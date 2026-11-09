@@ -1,0 +1,78 @@
+{
+  "Phase5a": {
+    "rows": 17784,
+    "unique_Segment_ID": 17784,
+    "duplicate_Segment_ID_rows": 0,
+    "sha256": "f374784b32630375ee8e79444577a2ffe2a9319e8dd6016d50bef4a049455812"
+  },
+  "Phase5c": {
+    "rows": 17784,
+    "unique_Segment_ID": 17784,
+    "duplicate_Segment_ID_rows": 0,
+    "sha256": "a30f748c60dfae3f206bead43053b9c333db4007ade520df127d224979de3490"
+  },
+  "Phase5d2A": {
+    "rows": 17784,
+    "unique_Segment_ID": 17784,
+    "duplicate_Segment_ID_rows": 0,
+    "sha256": "436323eca5cd7107a64e53bead3ca5c0b3c576df921c5ee96dc6ee1ba643a76e"
+  },
+  "Segment_ID_set_equality": {
+    "Phase5a_equals_Phase5c": true,
+    "Phase5a_equals_Phase5d2A": true
+  },
+  "GEE_match_status": {
+    "total": 17784,
+    "matched": 17784,
+    "missing_or_other": 0
+  },
+  "Spring_route_axis": {
+    "spring_segments": 10092,
+    "spring_birds": 15,
+    "day_segments": 6617,
+    "night_segments": 3475,
+    "route_axis_valid_segments": 9779,
+    "route_axis_valid_birds": 14,
+    "valid_axis_and_ge30km": 540,
+    "ge30km_day": 400,
+    "ge30km_night": 140
+  },
+  "Phase5d2C_event_tables": {
+    "Phase5d2C_Sustained_Long_Movement_Events.csv": 224,
+    "Phase5d2C_Event_Onset_Segments.csv": 218,
+    "Phase5d2C_Risk_Set_Control_Segments.csv": 6976,
+    "Phase5d2C_Matched_Stratum_Wind_Contrasts.csv": 92,
+    "Phase5d2C_Spring_Segment_Continuity_Audit.csv": 10092
+  },
+  "Phase5d2B_sequences": {
+    "rows": 261
+  },
+  "known_SHA256": {
+    "Phase5a_Frozen_Movement_Data.csv": {
+      "expected": "f374784b32630375ee8e79444577a2ffe2a9319e8dd6016d50bef4a049455812",
+      "actual": "f374784b32630375ee8e79444577a2ffe2a9319e8dd6016d50bef4a049455812",
+      "passed": true
+    },
+    "Phase5c_GEE_Full_Matched_Movement_Data.csv": {
+      "expected": "a30f748c60dfae3f206bead43053b9c333db4007ade520df127d224979de3490",
+      "actual": "a30f748c60dfae3f206bead43053b9c333db4007ade520df127d224979de3490",
+      "passed": true
+    },
+    "2015 Tsinghua waterfowl (Yangtze).csv": {
+      "expected": "9aca38d37f9bed3e02cbb67a7d0df963c2c38df9371aaf469ec48bee851a7d21",
+      "actual": null,
+      "passed": false,
+      "status": "not_included_in_current_accessible_files"
+    }
+  },
+  "optional_sources": {
+    "original_raw_GPS_included": false,
+    "4X_auxiliary_tracks_included": false
+  },
+  "interpretation": {
+    "wind_effect_status": "exploratory_association_only",
+    "continuous_event_status": "candidate_events_not_confirmed_flight_truth",
+    "script_scope": "package_and_verify_existing_files_only; no GEE extraction or ecological model refitting"
+  },
+  "generated_at_utc": "2026-11-09T05:50:14.894719+00:00"
+}

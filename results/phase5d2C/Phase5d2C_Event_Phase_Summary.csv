@@ -1,0 +1,3 @@
+﻿Start_DayNight,events,birds,segments,median_segments,median_duration_h,median_elapsed_h,median_chord_sum_km,tailwind_available,median_start_tailwind,median_start_headwind,median_start_crosswind
+Day,159,15,499,2.0,4.03333333333333,4.033333333333333,129.35031573452468,156,0.0,0.09558638443648365,1.96430231997854
+Night,65,13,163,2.0,4.0,4.0,123.5983959894827,62,1.377396675281715,0.0,1.756398497507375

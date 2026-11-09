@@ -1,0 +1,3 @@
+﻿Day_Night,N_eligible_birds,Bird_equal_risk_difference,Bird_bootstrap_CI_Low,Bird_bootstrap_CI_High,Qualification
+Day,14,0.020687225816614772,0.0032163274601487574,0.039388517207107974,"Bird-level descriptive bootstrap, no confounder adjustment, only birds with 20+ records per class"
+Night,14,0.02667893802856517,0.007806650051673053,0.0472652164793114,"Bird-level descriptive bootstrap, no confounder adjustment, only birds with 20+ records per class"
